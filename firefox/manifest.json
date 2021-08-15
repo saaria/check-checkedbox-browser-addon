@@ -1,0 +1,23 @@
+{
+
+    "manifest_version": 2,
+    "name": "Checked checkbox checker",
+    "version": "1.0",
+  
+    "description": "Check checked checkbox in the web page.",
+  
+    "icons": {
+      "48": "icons/icon-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": [
+            "http://*/*",
+            "https://*/*"
+        ],
+        "js": ["main.js"]
+      }
+    ]
+  
+  }
