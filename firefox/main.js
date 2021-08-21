@@ -5,6 +5,11 @@ for (let i = 0; i < elements.length; i++){
         count++;
     }
 }
+
 if (count > 0) {
-    alert(count+' checked checkbox found.');
+        let save = browser.storage.local.get(location.href);
+        save.then((storedInfo) => {
+            let status = storedInfo[Object.keys(storedInfo)[0]];
+            if (status) alert(count+' checked checkbox found.');
+        });
 }

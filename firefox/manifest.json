@@ -2,13 +2,28 @@
 
     "manifest_version": 2,
     "name": "Checked checkbox checker",
-    "version": "1.0",
+    "version": "1.1",
   
     "description": "Check checked checkbox in the web page.",
   
     "icons": {
       "48": "icons/icon-48.png"
     },
+
+    "permissions": [
+      "tabs",
+      "cookies",
+      "storage",
+      "<all_urls>"
+    ],
+
+    "browser_action": {
+      "default_icon": {
+       "32" : "icons/icon-32.png"
+      },
+      "default_title": "target domain",
+      "default_popup": "popup/input.html"
+    },  
   
     "content_scripts": [
       {
