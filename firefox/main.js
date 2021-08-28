@@ -7,9 +7,14 @@ for (let i = 0; i < elements.length; i++){
 }
 
 if (count > 0) {
-        let save = browser.storage.local.get(location.href);
+        let save = browser.storage.local.get(getDomainFromURI(location.href));
         save.then((storedInfo) => {
             let status = storedInfo[Object.keys(storedInfo)[0]];
             if (status) alert(count+' checked checkbox found.');
         });
+}
+
+function getDomainFromURI(uri) {
+    let uriobj = new URL(uri);
+    return uriobj.hostname;
 }
