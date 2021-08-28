@@ -2,7 +2,7 @@
 
     "manifest_version": 2,
     "name": "Checked checkbox checker",
-    "version": "1.1",
+    "version": "1.2",
   
     "description": "Check checked checkbox in the web page.",
   
