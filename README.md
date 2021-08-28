@@ -9,10 +9,10 @@ Check checked checkbox in the web page.
 4. Upload the archive. The item as "the distribution means" "myself", please choose.
 5. Access to "all version" of page from recieved e-mail, click "Version 1.1" and download xpi file.
 6. Install xpi file on your FireFox.
-7. Access the page in which checked check Bosch exists, click icon on toolbox and check checbox.
+7. Access the page in which checked checkbox exists, click icon on toolbox and check checbox.
 8. When accessing the same page next time, an alert window is shown.
 ## for Chrome
-under construction
+undecided
 ## for Edge
-under construction
+undecided
 # 
